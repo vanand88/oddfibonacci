@@ -9,8 +9,7 @@ Use make command to build, options: prep (creates output directories), debug, re
 
 Output file is generated in debug/ or release/ directory based on build type
 
-The calculation takes ~11.5 seconds with gcc 4.8, -O3 optimization, 64bit ubuntu 14.04, core i5 CPU
+The calculation takes ~11.3 seconds with gcc 4.8, -O3 optimization, 64bit ubuntu 14.04, core i5 CPU
+The calculation takes ~12.8 seconds with gcc 6.2, -O3 optimization, 64bit ubuntu 14.04, core i5 CPU
 
-If checks for 0 and 1 are combined in a single if statement, it runs some ~0.3 seconds faster (I didn't do it because the problem states to apply the given formula directly)
-
-Also runs under windows, tested with Visual Studio 2015 (project and solution files are included)
+Works under windows, tested with Visual Studio 2015 (project and solution files are included)
